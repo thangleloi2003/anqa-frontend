@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Anqa</title>
+</head>
+<body>
+    <div class="container">
+      <div class="logo">
+        <img src="/img/anqa-logo.png" alt="Anqa">
+        <h1>Anqa</h1>
+      </div>
+
+      <div class="center-buttons">
+        <button class="button">Trade ↑↓</button>
+        <button class="button">Bridge (soon)</button>
+      </div>
+      
+      <div class="right">
+        <button class="button">Connect Wallet</button>
+      </div>
+
+    </div>
+
+      <div class="h">
+        <div class="swap-header">
+            <button class="button">Swap</button>
+          <div class="settings">
+            <button class="icon">0.5%⚙️</button>
+          </div>
+        </div>
+
+        <div class="swap-input"onclick="document.getElementById('inputField').focus();">
+        <p class="paying">You're paying</p>
+        <input id="inputField" type="text" value="0.00" class="input-field">
+          <div class="token">
+            <select class="select-box">
+              <option value="APT">Ξ APT</option>
+            </select>
+          </div>
+        <div class="swap-slider">
+          <div class="slider">
+            <button class="percent">25%</button>
+            <button class="percent">50%</button>
+            <button class="percent">75%</button>
+            <button class="percent">100%</button>
+          </div>
+          <button class="arrow">↑↓</button>
+        </div>
+      </div>
+    </div>
+
+      <div class="s">
+        <div class="swap-input">
+            <p>To receive</p>
+          <input type="text" value="0.00" disabled>
+          <div class="token">
+            <select class="select-box">
+              <option value="zUSDC">($) zUSDC</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+        <button class="swap-button">Connect Wallet</button>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <p class="copyright">© Anqa 2024</p>
+      <div class="links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+
+   </body>
+</html>
