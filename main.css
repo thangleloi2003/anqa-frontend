@@ -1,3 +1,5 @@
+@import"https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap";
+
 * {
     box-sizing: border-box;
 }
@@ -34,17 +36,17 @@ body {
 }
 
 .button-trade {
-    padding: 10px 15px 5px 15px;
+    padding: 10px 15px;
     margin: 0 10px;
+    border: 2px solid #0079bf;
     background: #111111;
     color: #0ca0eb;
-    border-color: #0079bf;
     border-radius: 5px;
     margin-bottom: -5px;
     display: flex;
     font-size: 16px;
     margin-left: 5px;
-    outline: none;
+    outline: 0 none;
     font-family: 'Haken Grotesk', sans-serif;
 }
 .button-bridge {
@@ -59,6 +61,7 @@ body {
     display: flex;
     font-size: 15px;
     font-family: 'Haken Grotesk', sans-serif;
+    opacity: 0.3;
 }
 .soon{
     padding: 1px 5px;
@@ -71,7 +74,8 @@ body {
     border: 1px solid #0ca0eb;
 }
 .button-wallet {
-    padding: 10px 10px;
+    padding: 10px 20px;
+    font-weight: 500;
     margin: 0 5px;
     background-color: #0079bf;
     color: #ffffff;
