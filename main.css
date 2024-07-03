@@ -6,7 +6,7 @@
 
 body {
     background-color: #111111;
-    font-family: Arial, sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -15,9 +15,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 60px;
+    padding: 0 45px;
     width: 100%;
-    height: 84px;
+    height: 85px;
 }
 
 .center-buttons {
@@ -28,17 +28,15 @@ body {
 }
 
 .right {
-    display: flex;
-    justify-content: flex-end;
-    position: absolute;
-    right: 45px;
-    top: 25px;
+    position: relative;
+    left: 15px;
+    top: 0px;
 }
 
-.button-trade {
+.button-swap {
     padding: 10px 15px;
     margin: 0 10px;
-    border: 2px solid #0079bf;
+    border: 1px solid #0ca0eb;
     background: #111111;
     color: #0ca0eb;
     border-radius: 5px;
@@ -47,7 +45,7 @@ body {
     font-size: 16px;
     margin-left: 5px;
     outline: 0 none;
-    font-family: 'Haken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .button-bridge {
@@ -61,7 +59,7 @@ body {
     margin-bottom: -5px;
     display: flex;
     font-size: 15px;
-    font-family: 'Haken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     opacity: 0.3;
 }
 
@@ -75,20 +73,17 @@ body {
     margin-top: -1px;
     border: 1px solid #0ca0eb;
 }
-
-.button-wallet {
+.right .button-wallet {
     padding: 10px 20px;
-    font-weight: 500;
-    margin: 0 5px;
     background-color: #0079bf;
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: -5px;
-    display: flex;
     font-size: 16px;
-    font-family: 'Haken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
 }
 
 .h {
@@ -115,19 +110,6 @@ body {
     right: 5px;
 }
 
-.button-swap {
-    padding: 10px 10px;
-    margin: 0 5px;
-    background: #0079bf;
-    color: #111111;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-bottom: 5px;
-    display: flex;
-    font-size: 16px;
-}
-
 .icon {
     background-color: #111111;
     color: grey;
@@ -135,10 +117,11 @@ body {
     border: 1px solid #363636;
     font-size: 14px;
     cursor: pointer;
-    padding: 10px 30px 10px 15px;
+    padding: 8px 35px 8px 12px;
     position: relative;
-    left: 5px;
-    font-weight: bold;
+    left: 375px;
+    bottom: 5px;
+    font-weight: 500;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -170,7 +153,7 @@ body {
     color: #9aa0a6;
     font-size: 14px;
     left: -5px;
-    font-family: 'Haken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 .swap-input2 input {
     padding: 5px;
@@ -192,7 +175,7 @@ body {
     left: 15px;
     color: #9aa0a6;
     font-size: 14px;
-    font-family: 'Haken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
 
 }
 
@@ -260,17 +243,16 @@ body {
 }
 
 .arrow {
-    box-sizing: border-box;
-    width: 36px;
-    height: 36px;
+    width: 37px;
+    height: 37px;
     background-color: #282a2d;
     color: white;
     border: 1px solid black;
     border-radius: 48%;
     cursor: pointer;
     position: absolute;
-    bottom: -50px;
-    right: 235px;
+    bottom: -46px;
+    right: 233px;
     transform: translateX(50%);
     z-index: 1;
 }
@@ -287,7 +269,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    font-family: 'Haken Grotesk', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
     position: relative;
     bottom: -145px;
     left: -20px;
@@ -297,34 +279,34 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 60px;
-    font-size: 13px;
+    font-size: 14px;
     position: relative;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 
 .footer .links a {
     text-decoration: none;
     color: grey;
-    font-family: 'Haken Grotesk', sans-serif;
     position: fixed;
-    right: 245px;
-    bottom: 25px;
+    right: 205px;
+    bottom: 35px;
 }
 
 .footer .links2 a {
     text-decoration: none;
     color: grey;
-    font-family: 'Haken Grotesk', sans-serif;
     position: fixed;
-    right: 115px;
-    bottom: 25px;
+    right: 60px;
+    bottom: 35px;
 }
 
 .footer .copyright {
     color: grey;
     text-decoration: none;
     position: fixed;
-    bottom: 15px;
+    bottom: 20px;
+    left: 31px;
 }
 
 .footer .copyright a {
