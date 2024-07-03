@@ -36,16 +36,16 @@ body {
 .button-swap {
     padding: 10px 15px;
     margin: 0 10px;
-    border: 1px solid #0ca0eb;
     background: #111111;
+    border: 1px solid #0ca0eb;
     color: #0ca0eb;
     border-radius: 5px;
     margin-bottom: -5px;
     display: flex;
     font-size: 16px;
     margin-left: 5px;
-    outline: 0 none;
     font-family: 'Hanken Grotesk', sans-serif;
+    cursor: pointer;
 }
 
 .button-bridge {
@@ -188,7 +188,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     margin-left: 310px;
-
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .swap-input2 .select-box2 {
@@ -203,6 +203,7 @@ body {
     position: absolute;
     top: 55px;
     left: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 .s {
@@ -255,6 +256,10 @@ body {
     right: 233px;
     transform: translateX(50%);
     z-index: 1;
+}
+.swap-slider .arrow:hover {
+    border: 1px solid lightgrey;
+    color: lightgrey;
 }
 
 .connect-wallet {
