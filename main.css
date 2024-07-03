@@ -145,6 +145,7 @@ body {
     position: absolute;
     left: -10px;
     bottom: -10px;
+    width: 75%;
 }
 
 .swap-input .paying {
@@ -168,6 +169,7 @@ body {
     position: absolute;
     left: 10px;
     bottom: 46px;
+    width: 75%;
 }
 .swap-input2 .receive {
     position: absolute;
