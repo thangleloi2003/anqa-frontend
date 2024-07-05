@@ -9,8 +9,20 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100vh;
 }
-
+.bg-img {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://app.anqa.ag/images/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -34,18 +46,23 @@ body {
 }
 
 .button-swap {
-    padding: 10px 15px;
+    padding: 9px 15px;
     margin: 0 10px;
     background: #111111;
     border: 1px solid #0ca0eb;
     color: #0ca0eb;
     border-radius: 5px;
-    margin-bottom: -5px;
+    margin-bottom: 0;
     display: flex;
     font-size: 16px;
     margin-left: 5px;
     font-family: 'Hanken Grotesk', sans-serif;
     cursor: pointer;
+    
+}
+
+.button-swap:hover{
+    background-color: rgba(240, 240, 240, 0.1); 
 }
 
 .button-bridge {
@@ -86,6 +103,10 @@ body {
     font-weight: 500;
 }
 
+.right .button-wallet:hover{
+    opacity: 0.9;
+}
+
 .h {
     max-width: 450px;
     height: 150px;
@@ -124,6 +145,9 @@ body {
     font-weight: 500;
     font-family: 'Hanken Grotesk', sans-serif;
 }
+.icon:hover {
+    opacity: 0.9; 
+}
 
 .swap-input {
     display: flex;
@@ -137,15 +161,15 @@ body {
     margin-right: 10px;
     border-radius: 5px;
     border: none;
-    background: transparent;
+    background-color: transparent;
+    color: floralwhite;
     outline: none;
-    color: #ffffff;
     font-size: 36px;
     font-weight: 600;
     position: absolute;
-    right: 105px;
-    top: 2px;
-    width: 75%;
+    right: 0px;
+    top: 3px;
+    width: 100%;
 }
 
 .swap-input .paying {
@@ -156,6 +180,14 @@ body {
     left: -5px;
     font-family: 'Hanken Grotesk', sans-serif;
 }
+.swap-input .font-normal1{
+    color: #9aa0a6;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    right: 5px;
+}
+
 .swap-input2 input {
     width: 100%;
     padding: 5px;
@@ -168,7 +200,7 @@ body {
     font-size: 36px;
     font-weight: 600;
     position: absolute;
-    left: 8px;
+    left: 10px;
     bottom: 42px;
     font-family: 'Hanken Grotesk', sans-serif;
 }
@@ -181,6 +213,14 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
 
 }
+.swap-input2 .font-normal2{
+    color: #9aa0a6;
+    font-size: 14px;
+    position: relative;
+    top: 95px;
+    right: 205px;
+}
+
 
 .swap-input .select-box {
     background-color: #17181b;
@@ -190,7 +230,7 @@ body {
     padding: 7px 30px;
     font-size: 20px;
     cursor: pointer;
-    margin-left: 320px;
+    margin-left: 295px;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 .swap-input .select-box:hover {
@@ -262,13 +302,13 @@ body {
     border-radius: 48%;
     cursor: pointer;
     position: absolute;
-    bottom: -46px;
+    top: 30px;
     right: 243px;
     transform: translateX(50%);
     z-index: 1
 }
 .swap-slider .arrow:hover {
-    border: 1px solid white !important;
+    border: 1px solid #C0C0C0; 
 }
 
 .connect-wallet {
@@ -286,26 +326,29 @@ body {
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: 500;
     position: relative;
-    top: 143px;
-    left: -20px;
+    top: 125px;
+    right: 20px;
+}
+.connect-wallet:hover {
+    opacity: 0.9;
 }
 
 .footer {
-    display: flex;
     justify-content: space-between;
     width: 100%;
     height: 84px;
     padding: 10px;
     font-size: 14px;
-    position: relative;
+    position: fixed;
     bottom: 0;
+    left: 0;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
 
 .footer .links a {
     text-decoration: none;
-    color: grey;
+    color: #9aa0a6;
     position: fixed;
     right: 205px;
     bottom: 35px;
@@ -313,14 +356,14 @@ body {
 
 .footer .links2 a {
     text-decoration: none;
-    color: grey;
+    color: #9aa0a6;
     position: fixed;
     right: 60px;
     bottom: 35px;
 }
 
 .footer .copyright {
-    color: grey;
+    color: #9aa0a6;
     text-decoration: none;
     position: fixed;
     bottom: 20px;
@@ -328,10 +371,18 @@ body {
 }
 
 .footer .copyright a {
-    color: grey;
+    color: #9aa0a6;
     text-decoration: none;
 
 }
 .footer .copyright a i{
     margin-left: 15px;
+}
+
+.footer .copyright a i.discord-icon{
+    font-size: 12px;
+}
+
+.footer .copyright a i.twitter-icon{
+    font-size: 13px;
 }
