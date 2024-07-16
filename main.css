@@ -133,8 +133,8 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 84px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 header .left{
@@ -142,7 +142,7 @@ header .left{
     display: flex;
 }
 header .left .logo svg{
-  margin-left: 11px;
+  transform: translateX(10px);
 }
 
 header .center{
