@@ -149,17 +149,17 @@ header .center{
     align-items: center;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 16px;
     line-height: 40px;
     color: inherit;
 }
 
 header .center .button-swap {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 16px;
+    padding-right: 16px;
     background-color: transparent;
     border-radius: 5px;
-    gap: .5rem;
+    gap: 8px;
     color: #0ca0eb;
     min-width: 0px;
     font-weight: 400;
@@ -176,7 +176,7 @@ header .center .button-bridge {
     border-radius: 5px;
     color: #9aa0a6;
     gap: 4px;
-    min-width: 5rem;
+    min-width: 80px;
     font-size: 16px;
     cursor: pointer;
     line-height: 18px;
@@ -188,15 +188,15 @@ header .center .button-bridge {
 }
 
 header .center .soon {
-    padding-left: .25rem;
-    padding-right: .25rem;
+    padding-left: 4px;
+    padding-right: 4px;
     font-size: 12px;
     gap: .25rem;
     color: #0ca0eb;
     border: 1px solid #0ca0eb;
     border-radius: 5px;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 16px;
     border-width: 1px;
 }
 
@@ -207,21 +207,21 @@ header .right{
 }
 
 header .right .button-wallet {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 16px;
+    padding-right: 16px;
     font-size: 16px;
     background: #0079bf;
     color: #ffffff;
     border: 1px solid #0ca0eb;
     border-radius: 5px;
     font-weight: 400;
-    height: 2.5rem;
+    height: 40px;
     font-weight: 500;
     cursor: pointer;
 }
 
 main {
-    padding: 1rem;
+    padding: 16px;
     width: 100%;
     margin-top: 60px;
 }
@@ -235,7 +235,7 @@ main .container-center {
 }
 
 main .container-center .token {
-    gap: .5rem;
+    gap: 8px;
     justify-content: flex-end;
     display: flex;
     height: 36px;
@@ -256,7 +256,7 @@ main .container-center .token .icon1 svg {
 main .container-center .token .icon2 {
     display: inline-flex;
     padding: 0 0 0 12px;
-    gap: 0px !important;
+    gap: 0px;
     background: inherit;
     border-radius: 5px;
     height: 36px;
@@ -266,10 +266,10 @@ main .container-center .token .icon2 {
 main .container-center .token .icon2 .text{
     font-weight: 400;
     color: #9aa0a6;
-    font-size: .875rem;
+    font-size: 14px;
     line-height: 35px;
     font-weight: 400;
-    width: 1.845rem;
+    width: 29px;
 }
 
 main .container-center .token .icon2 svg{
@@ -278,15 +278,15 @@ main .container-center .token .icon2 svg{
 }
 
 main .container-center .space1{
-  margin-left: 0.25rem;
-  margin-top: 1rem;
+  margin-left: 4px;
+  margin-top: 16px;
   width: 1px;
   height: 1px;
   display: block;
 }
 
 main .container-center .paying-receive{
-  gap: .25rem;
+  gap: 4px;
   height: 301px;
   flex-direction: column;
   display: flex;
@@ -295,11 +295,11 @@ main .container-center .paying-receive{
 
 main .container-center .paying-receive .h{
   display: flex;
-  padding: .75rem;
+  padding: 12px;
   flex-direction: column;
-  gap: .5rem;
+  gap: 8px;
   border-width: 1px;
-  border-radius: .25rem;
+  border-radius: 4px;
   background: #17181b;
   
 }
@@ -315,7 +315,7 @@ main .container-center .paying-receive .h .paying {
 }
 
 main .container-center .paying-receive .h .input-box {
-  gap: .75rem;
+  gap: 12px;
   justify-content: space-between;
   align-items: center;
   display: flex;
